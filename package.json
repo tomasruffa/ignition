@@ -1,5 +1,5 @@
 {
-  "name": "ignitiontest",
+  "name": "ignition",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,9 +9,21 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/client": "^3.3.21",
+    "@apollo/react-hooks": "^4.0.0",
+    "@material-ui/core": "^4.12.2",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.60",
+    "graphql": "^15.5.1",
+    "graphql-tag": "^2.12.5",
+    "js-cookie": "^3.0.0",
+    "jsonwebtoken": "^8.5.1",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "react-loader-spinner": "^4.0.0",
+    "react-spinners": "^0.11.0",
+    "sass": "^1.36.0"
   },
   "devDependencies": {
     "eslint": "7.31.0",
