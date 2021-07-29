@@ -1,5 +1,5 @@
 import client from "../apollo/path";
-import { ApolloProvider } from '@apollo/client';
+import { ApolloProvider } from '@apollo/react-hooks';
 import '../styles/globals.scss'
 import '../styles/start.scss'
 import '../styles/dashboard.scss'
